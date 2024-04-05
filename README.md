@@ -27,9 +27,35 @@ Game Id:
   The `game id` is next to `terms`parameter.
 
 After that go to macro config page and fill the NexusMods's script config page.
-*Domain name and Game id is already filled for Skyrim Special Edition*
+*Domain name and Game id is already filled for Skyrim Special Edition*  
+
+### Data returned by the Script.
+After the script run, the script will return a set of variables containing the data of the selected mod.
+This data can be used to other parts of the macros or tempĺates.
+Data can be access using the variable `{{VALUE:[data name]}}`, ex: `{{VALUE:mod_id}}` returns the id of the selected mod.
+These are the available values:
+```
+id: The mod Id,
+name: The mod name,
+author: The nickname of the author,
+category: The Category id from nexus mods,
+summary: The small summary used in the search page,
+description: The description of the mod (converted from bbcode and poor html to markdown),
+picture: A hi-definition picture url,
+version: Last mod Version,
+created: The date that the mod was created(uploaded),
+updated: The last date that the mod was updated,
+adult: if the content is adult,
+fileName: The mod name formated to be used as a Obsidian note title,
+thumbnail: Mod Thumbail,
+```
+
+### Known bugs
+- Sometimes Nexus don't return in their api of the mod has Adult content or not, case you use the value `adult` on your template, you maybe need to set manualy using `true` or `false`.
+
 ### TODO
 - Improve the Conversion from BBcode to Markdown.
+- Better handling of the search results.
 
 ### Credits
 Credits to Jondun for his basic BBcode to Markdown Converter
