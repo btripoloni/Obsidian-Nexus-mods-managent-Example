@@ -1,6 +1,109 @@
 {
-  "choices": [],
-  "macros": [],
+  "choices": [
+    {
+      "id": "7246a5c5-8d29-429c-b333-15f5e4f71aa2",
+      "name": "Add New Skyrim Mod",
+      "type": "Macro",
+      "command": true,
+      "macroId": "e4900a53-f458-4f3a-b5f0-36de6531f9d0"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Skyrim Kanban Mod Insert",
+      "id": "e4900a53-f458-4f3a-b5f0-36de6531f9d0",
+      "commands": [
+        {
+          "name": "NexusMods",
+          "type": "UserScript",
+          "id": "d88638dd-9e6b-4547-8a08-6b85f5516913",
+          "path": "Scripts/NexusMods.js",
+          "settings": {
+            "Personal Nexus API Key": "",
+            "Game": "skyrimspecialedition",
+            "Game ID": "1704",
+            "Adult content": true
+          }
+        },
+        {
+          "name": "Create Kanbam Note",
+          "type": "NestedChoice",
+          "id": "59e89600-d645-4b00-91d2-1d110cffb315",
+          "choice": {
+            "id": "9159b50e-7aa5-469b-a319-66507678caa5",
+            "name": "Create Kanbam Note",
+            "type": "Template",
+            "command": false,
+            "templatePath": "Templates/Skyrim Mod Template.md",
+            "fileNameFormat": {
+              "enabled": true,
+              "format": "{{VALUE:fileName}}"
+            },
+            "folder": {
+              "enabled": true,
+              "folders": [
+                "Mods"
+              ],
+              "chooseWhenCreatingNote": false,
+              "createInSameFolderAsActiveFile": false,
+              "chooseFromSubfolders": false
+            },
+            "appendLink": false,
+            "openFileInNewTab": {
+              "enabled": true,
+              "direction": "vertical",
+              "focus": false
+            },
+            "openFile": true,
+            "openFileInMode": "default",
+            "fileExistsMode": "Increment the file name",
+            "setFileExistsBehavior": false
+          }
+        },
+        {
+          "name": "Insert new Skyrim mod to Kanban",
+          "type": "NestedChoice",
+          "id": "d1765825-39fe-43b2-9bd6-7aca8120c65e",
+          "choice": {
+            "id": "b872abca-49c2-49b0-9001-5e61742c086d",
+            "name": "Insert new Skyrim mod to Kanban",
+            "type": "Capture",
+            "command": false,
+            "appendLink": false,
+            "captureTo": "Mods.md",
+            "captureToActiveFile": false,
+            "createFileIfItDoesntExist": {
+              "enabled": false,
+              "createWithTemplate": false,
+              "template": ""
+            },
+            "format": {
+              "enabled": true,
+              "format": "- [ ] [[{{VALUE:fileName}}]]"
+            },
+            "insertAfter": {
+              "enabled": true,
+              "after": "## Inbox",
+              "insertAtEnd": false,
+              "considerSubsections": false,
+              "createIfNotFound": false,
+              "createIfNotFoundLocation": "top"
+            },
+            "prepend": false,
+            "task": false,
+            "openFileInNewTab": {
+              "enabled": false,
+              "direction": "vertical",
+              "focus": true
+            },
+            "openFile": false,
+            "openFileInMode": "default"
+          }
+        }
+      ],
+      "runOnStartup": false
+    }
+  ],
   "inputPrompt": "single-line",
   "devMode": false,
   "templateFolderPath": "",
@@ -55,7 +158,7 @@
     "useQuickAddTemplateFolder": true,
     "incrementFileNameSettingMoveToDefaultBehavior": true,
     "mutualExclusionInsertAfterAndWriteToBottomOfFile": true,
-    "setVersionAfterUpdateModalRelease": false,
+    "setVersionAfterUpdateModalRelease": true,
     "addDefaultAIProviders": false
   }
 }

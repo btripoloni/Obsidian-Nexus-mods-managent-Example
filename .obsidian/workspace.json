@@ -11,9 +11,19 @@
             "id": "ac50dd4162a5d226",
             "type": "leaf",
             "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Mods.md"
+              }
+            }
+          },
+          {
+            "id": "213aedd8abbdcc66",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "Templates/Skyrim Mod Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "Mods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "Mods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "Mods.md"
               }
             }
           }
@@ -146,10 +156,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "cc04bb33fffac668",
+  "active": "ac50dd4162a5d226",
   "lastOpenFiles": [
+    "Mods/Immersive Armors.md",
+    "Mods.md",
+    "Templates/Skyrim Mod Template.md",
+    "README.md",
+    "Templates",
+    "Mods",
     "Scripts/NexusMods.js",
-    "Scripts",
-    "README.md"
+    "Scripts"
   ]
 }
