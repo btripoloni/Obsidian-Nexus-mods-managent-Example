@@ -1,6 +1,6 @@
 This Valt is a example of how you can use Kanban and QuickAdd plugins to organize your mod list.
 
-<video width="680" src="https://raw.githubusercontent.com/btripoloni/Obsidian-Nexus-mods-managent-Example/main/Attachments/demo.mp4" autoplay loop ></video>
+https://github.com/btripoloni/Obsidian-Nexus-mods-managent-Example/assets/1844377/79654666-8e1c-42ba-a5da-1eeaea0af478
 
 > **Important!**
 > This example is only for make notes about the mods from your load lists, There is no connection with ModOrganzer or Vortex Mod Manager.
