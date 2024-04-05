@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "92c41acf415cbc62",
+        "id": "e808d07bd73aadaa",
         "type": "tabs",
         "children": [
           {
-            "id": "ac50dd4162a5d226",
+            "id": "d3e0a6155b072b5d",
             "type": "leaf",
             "state": {
               "type": "kanban",
               "state": {
                 "file": "Mods.md"
-              }
-            }
-          },
-          {
-            "id": "213aedd8abbdcc66",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Templates/Skyrim Mod Template.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -156,11 +144,15 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "ac50dd4162a5d226",
+  "active": "d3e0a6155b072b5d",
   "lastOpenFiles": [
     "Mods/Immersive Armors.md",
     "Mods.md",
+    "Mods/Skyrim Flora Overhaul SE.md",
+    "Mods/SkyUI.md",
+    "Mods/Lux Via.md",
     "Templates/Skyrim Mod Template.md",
+    "Mods/Lux.md",
     "README.md",
     "Templates",
     "Mods",

@@ -84,7 +84,7 @@
             "insertAfter": {
               "enabled": true,
               "after": "## Inbox",
-              "insertAtEnd": false,
+              "insertAtEnd": true,
               "considerSubsections": false,
               "createIfNotFound": false,
               "createIfNotFoundLocation": "top"
