@@ -11,9 +11,11 @@
             "id": "d3e0a6155b072b5d",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Mods.md"
+                "file": "README.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mods.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mods.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mods.md"
+                "file": "README.md"
               }
             }
           }
@@ -146,14 +148,17 @@
   },
   "active": "d3e0a6155b072b5d",
   "lastOpenFiles": [
-    "Mods/Immersive Armors.md",
     "Mods.md",
+    "README.md",
+    "Attachments",
+    "Attachments/demo.mp4",
+    "Mods/RUSTIC CLOTHING - Special Edition.md",
+    "Mods/Immersive Armors.md",
     "Mods/Skyrim Flora Overhaul SE.md",
     "Mods/SkyUI.md",
     "Mods/Lux Via.md",
     "Templates/Skyrim Mod Template.md",
     "Mods/Lux.md",
-    "README.md",
     "Templates",
     "Mods",
     "Scripts/NexusMods.js",

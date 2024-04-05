@@ -7,18 +7,18 @@ kanban-plugin: basic
 ## Inbox
 
 - [ ] [[Lux Via]]
-- [ ] [[Lux]]
-- [ ] [[Skyrim Flora Overhaul SE]]
-
+- [ ] [[RUSTIC CLOTHING - Special Edition]]
 
 ## Mods to be Installed
 
-- [ ] [[Immersive Armors]]
+- [ ] [[Skyrim Flora Overhaul SE]]
 
 
 ## Installed Mods
 
 - [ ] [[SkyUI]]
+- [ ] [[Lux]]
+- [ ] [[Immersive Armors]]
 
 
 
